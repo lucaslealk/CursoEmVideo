@@ -18,11 +18,11 @@ print('PÔ!!!')
 print('==' * 20)
 print(f'O computador jogou {computador}')
 if jogador == 0:
-    print('Você jogou PEDRA')
+    print('Você jogou pedra')
 elif jogador == 1:
-    print('Você jogou PAPEL')
+    print('Você jogou papel')
 elif jogador == 2:
-    print('Você jogou TESOURA')
+    print('Você jogou tesoura')
 else:
     print('Jogada inválida! Você perdeu!')
     exit()
